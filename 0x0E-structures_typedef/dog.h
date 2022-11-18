@@ -2,16 +2,16 @@
 #define DOG_H
 
 /**
-  * Struct dog - It's a structure for a dog object
+  * struct dog - A structure for a basic dog
   * @name: Dog's name
   * @age: Dog's age
   * @owner: Dog's owner
   */
-Struct dog
+struct dog
 {
-char *name;
-float age;
-char *owner;
+	char *name;
+	float age;
+	char *owner;
 };
 typedef struct dog dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
